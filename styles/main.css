@@ -1,0 +1,226 @@
+* {
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+
+.body {
+    width: 800px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 0 0 10px 12px black;
+}
+
+header {
+    border: 0.001px solid black;
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(45deg,white,orange,black);
+    padding-left: 10px;
+}
+
+main{
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h1::first-letter {
+    font-size: 200%;
+}
+
+.header2 {
+    margin-top:  10px;
+    margin-left: 100px;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+
+.header3{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.menu {
+    background-color: black; 
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-top: 0px;
+    padding: 0;
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul {
+    margin: 0;
+    margin-left: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    background-color: black;
+    display: inline;
+    position: relative;
+
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 10px;
+}
+
+
+.menu ul li a:hover{
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+}
+
+#current {
+    color: orange; 
+}
+
+.menu .dropdown-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu .dropdown-menu li{
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu .dropdown-menu a{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.menu .dropdown-menu a:hover {
+    width: 100%;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
+
+.left {
+    width: 160px;
+}
+
+
+h4 {
+    font-size: 14px;
+}
+
+.pumpkin {
+    margin-top: 10px;
+    float: left;
+}
+
+.left ul{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.left ul li {
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
+    border: 2px solid black;
+    background-color: orange;
+}
+
+.left ul li a {
+    background-color: orange;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.left ul li a:visited {
+    font-weight: bold;
+    color: orange;
+}
+
+.left ul li a:hover {
+    font-weight: bold;
+    color: green;
+}
+
+.left ul li a:focus {
+    font-weight: bold;
+    color: green;
+}
+
+a {
+    font-weight: bold;
+    color: orange; 
+}
+
+a:visited {
+    font-weight: bold;
+    color: orange; 
+}
+
+a:focus {
+    font-weight: bold;
+    color: green; 
+}
+
+a:hover {
+    font-weight: bold;
+    color: green; 
+}
+
+footer {
+    border: 0.001px solid black;
+    background-image: linear-gradient(45deg,black,orange,white);
+    font-size: 80%;
+    border-top: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+}
+
+p {
+    margin-right: 40px;
+}
